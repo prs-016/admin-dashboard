@@ -1,2 +1,2 @@
 # admin-dashboard
-Admin Dashboard Samle
+Admin Dashboard Sample
