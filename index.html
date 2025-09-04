@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fancy Dashboard</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <header>
+    <h1>My Fancy Dashboard</h1>
+    <button id="toggleTheme">🌙 Toggle Theme</button>
+  </header>
+
+  <main>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="#">🏠 Home</a></li>
+          <li><a href="#">📊 Analytics</a></li>
+          <li><a href="#">⚙️ Settings</a></li>
+          <li><a href="#">📧 Messages</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Content -->
+    <section class="content">
+      <div class="grid">
+        <div class="card">📈 Sales Growth</div>
+        <div class="card">👥 New Users</div>
+        <div class="card">💰 Revenue</div>
+        <div class="card">📦 Orders</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Fancy Dashboard</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
